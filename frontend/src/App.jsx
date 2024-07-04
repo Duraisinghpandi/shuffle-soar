@@ -146,10 +146,6 @@ const App = (message, props) => {
             );
           }
         }
-
-        // Handling Ethereum update
-
-        //console.log("USER: ", userInfo)
         setUserData(userInfo);
         setIsLoaded(true);
       })
